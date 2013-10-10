@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,58,0,0,2,56"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Last"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="162" max="-2" attributes="0"/>
+                  <EmptySpace pref="132" max="32767" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="48" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x786e;&#x5b9a;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x53d6;&#x6d88;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x78b0;&#x649e;&#x6982;&#x7387;&#xff1a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="2"/>
+        <Property name="rows" type="int" value="12"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5728;&#x7ba1;&#x7ebf;&#x4e0a;&#x65b9;&#x5f00;&#x6316;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="&#x4e00;&#x7ea7;&#x5730;&#x533a;(/ km&#xb7;&#x5e74; )"/>
+                <StringItem index="1" value="&#x4e8c;&#x7ea7;&#x5730;&#x533a;(/ km&#xb7;&#x5e74; )"/>
+                <StringItem index="2" value="&#x4e09;&#x7ea7;&#x5730;&#x533a;(/ km&#xb7;&#x5e74; )"/>
+                <StringItem index="3" value="&#x56db;&#x7ea7;&#x5730;&#x533a;(/ km&#xb7;&#x5e74; )"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7b2c;&#x4e09;&#x65b9;&#x4e0d;&#x77e5;&#x9053;&#x6709;&#x7ba1;&#x7ebf;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="&#x76f4;&#x63a5;&#x5411;&#x8054;&#x7cfb;&#x4eba;&#x5bc4;&#x53d1;&#x5e7f;&#x544a;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x672a;&#x53d1;&#x73b0;&#x7ba1;&#x7ebf;&#x5730;&#x9762;&#x6807;&#x5fd7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="&#x6709;&#x9009;&#x62e9;&#x5730;&#x5728;&#x4ea4;&#x53c9;&#x70b9;&#x8bbe;&#x7acb;&#x6807;&#x5fd7; "/>
+                <StringItem index="1" value="&#x5728;&#x6240;&#x6709;&#x4ea4;&#x53c9;&#x70b9;&#x8bbe;&#x7acb;&#x6807;&#x5fd7; "/>
+                <StringItem index="2" value="&#x5728;&#x6240;&#x6709;&#x4ea4;&#x53c9;&#x70b9;&#x5e76;&#x5728;&#x7ba1;&#x9053;&#x6cbf;&#x7ebf;&#x6309;&#x4e00;&#x5b9a;&#x95f4;&#x9694;&#x8bbe;&#x7acb;&#x6807;&#x5fd7; "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x672a;&#x53d1;&#x73b0;&#x7ba1;&#x7ebf;&#x57cb;&#x5730;&#x6807;&#x5fd7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox4">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="&#x65e0;&#x57cb;&#x5730;&#x6807;&#x5fd7;"/>
+                <StringItem index="1" value="&#x6709;&#x57cb;&#x5730;&#x6807;&#x5fd7;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7b2c;&#x4e09;&#x65b9;&#x9009;&#x62e9;&#x4e0d;&#x4e88;&#x901a;&#x544a; "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox5">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="&#x81ea;&#x613f;"/>
+                <StringItem index="1" value="&#x5f3a;&#x5236;&#x4f46;&#x65e0;&#x5f3a;&#x5236;&#x63aa;&#x65bd;"/>
+                <StringItem index="2" value="&#x5f3a;&#x5236;&#x52a0;&#x6c11;&#x4e8b;&#x5904;&#x7f5a; "/>
+                <StringItem index="3" value="&#x7b7e;&#x8ba2;&#x7ba1;&#x9053;&#x7528;&#x5730;&#x534f;&#x8bae;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7b2c;&#x4e09;&#x65b9;&#x672a;&#x80fd;&#x907f;&#x5f00;&#x7ba1;&#x9053; "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox6">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="&#x4e0d;&#x9002;&#x7528;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5de1;&#x7ebf;&#x4eba;&#x5458;&#x672a;&#x53d1;&#x73b0;&#x7b2c;&#x4e09;&#x65b9;&#x5f00;&#x6316;&#x6d3b;&#x52a8;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox7">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="&#x6bcf;&#x534a;&#x65e5;&#x5de1;&#x67e5; "/>
+                <StringItem index="1" value="&#x6bcf;&#x65e5;&#x5de1;&#x67e5; "/>
+                <StringItem index="2" value="&#x9694;&#x65e5;&#x5de1;&#x67e5; "/>
+                <StringItem index="3" value="&#x6bcf;&#x5468;&#x5de1;&#x67e5; "/>
+                <StringItem index="4" value="&#x9694;&#x5468;&#x5de1;&#x67e5; "/>
+                <StringItem index="5" value="&#x6bcf;&#x6708;&#x5de1;&#x67e5; "/>
+                <StringItem index="6" value="&#x6bcf;&#x534a;&#x5e74;&#x5de1;&#x67e5; "/>
+                <StringItem index="7" value="&#x6bcf;&#x5e74;&#x5de1;&#x67e5;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5176;&#x5b83;&#x4eba;&#x5458;&#x672a;&#x62a5;&#x544a;&#x7b2c;&#x4e09;&#x65b9;&#x5f00;&#x6316;&#x6d3b;&#x52a8;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox8">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="&#x4e0d;&#x9002;&#x7528;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7b2c;&#x4e09;&#x65b9;&#x5728;&#x7ba1;&#x7ebf;&#x90e8;&#x95e8;&#x56de;&#x5e94;&#x524d;&#x5f00;&#x6316;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox9">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="&#x5f53;&#x65e5;&#x5185;&#x4f5c;&#x51fa;&#x56de;&#x5e94; "/>
+                <StringItem index="1" value="&#x4e24;&#x65e5;&#x5185;&#x4f5c;&#x51fa;&#x56de;&#x5e94;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4e34;&#x65f6;&#x6807;&#x5fd7;&#x4e0d;&#x6b63;&#x786e;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox10">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="&#x6309;&#x516c;&#x53f8;&#x8d44;&#x6599; "/>
+                <StringItem index="1" value="&#x7ba1;&#x9053;&#x63a2;&#x6d4b;&#x4eea;"/>
+                <StringItem index="2" value="&#x4eba;&#x5de5;&#x5f00;&#x6316;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4e0e;&#x6807;&#x8bb0;&#x6b63;&#x786e;&#x7684;&#x7ba1;&#x9053;&#x53d1;&#x751f;&#x610f;&#x5916;&#x78b0;&#x649e;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox11">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="&#x63d0;&#x4f9b;&#x7ba1;&#x9053;&#x7ebf;&#x8def;&#x8d44;&#x6599; "/>
+                <StringItem index="1" value="&#x5b9a;&#x4f4d; / &#x6807;&#x8bb0; "/>
+                <StringItem index="2" value="&#x5b9a;&#x4f4d; / &#x6807;&#x8bb0; / &#x73b0;&#x573a;&#x76d1;&#x7763; "/>
+                <StringItem index="3" value="&#x7531;&#x7ba1;&#x7ebf;&#x90e8;&#x95e8;&#x5f00;&#x6316;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5f00;&#x6316;&#x6df1;&#x5ea6;&#x8d85;&#x8fc7;&#x7ba1;&#x7ebf;&#x57cb;&#x6df1;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox12">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="&#x7ba1;&#x9053;&#x57cb;&#x6df1; 0.8 m "/>
+                <StringItem index="1" value="&#x7ba1;&#x9053;&#x57cb;&#x6df1;1.0 m"/>
+                <StringItem index="2" value="&#x7ba1;&#x9053;&#x57cb;&#x6df1;1.2 m"/>
+                <StringItem index="3" value="&#x7ba1;&#x9053;&#x57cb;&#x6df1;1.5 m"/>
+                <StringItem index="4" value="&#x7ba1;&#x9053;&#x57cb;&#x6df1;1.8 m"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
